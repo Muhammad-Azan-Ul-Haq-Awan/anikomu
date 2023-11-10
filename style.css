@@ -125,16 +125,17 @@ body {
     color: white;
 }
 
-.donate {
+.dont-click {
     border: 2px solid blue;
     background-color: blueviolet;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
-.donate a{
+.dont-click a{
     color: white;
     text-decoration: none;
+    padding: 12px;
 }
 
 .container {
@@ -204,3 +205,53 @@ body {
     align-items: center;
 }
 
+.lower-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.lower-part {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #333; 
+    border-radius: 40px;
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lower-part h4 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.lower-part p {
+    font-size: 24px;
+    color: white;
+}
+
+.lower-part .dont-click {
+    padding: 8px;
+    margin: 12px;
+}
+
+.lower-part a {
+    padding: 12px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
