@@ -1,0 +1,126 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .leftsidenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navelements {
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.logo {
+    font-size: 32px;
+    padding-left: 12px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+
+}
+
+.navbar .leftsidenav #zoro {
+    width: 100px;
+    height: 50px;
+    margin-right: 0px;
+}
+
+.navelements ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navelements li {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navelements li img {
+    width: auto;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.navelements a {
+    text-decoration: none;
+}
+
+.navelements #reddit {
+    color: orange;
+}
+
+.navelements #youtube {
+    color: orangered;
+}
+
+.navelements #discord {
+    color: darkviolet;
+}
+
+.navbar .navelements #redditimg,
+.navbar .navelements #youtubeimg,
+.navbar .navelements #discordimg {
+    width: auto;
+    height: 40px;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.upper-part {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #333; 
+    padding: 20px; 
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.upper-part h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8);
+}
+
+#intro {
+    line-height: 1.6; 
+    font-size: 18px;
+    color: white;
+}
